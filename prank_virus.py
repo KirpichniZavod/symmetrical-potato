@@ -304,7 +304,8 @@ def main() -> None:
     warning_text = (
         f"{Ansi.RED}{Ansi.BOLD}ЭТА ПРОГРАММА МОЖЕТ ПРИНЕСТИ ВРЕД ИЛИ УСЛОЖНИТЬ ИСПОЛЬЗОВАНИЕ ПК!{Ansi.RESET}\n"
         f"{Ansi.YELLOW}{Ansi.BOLD}СТРОГО ДЛЯ КАНАЛА Nedohacker lite.{Ansi.RESET}\n"
-        f"{Ansi.BOLD}Я вас предупрдил!{Ansi.RESET}\n\n"
+        f"{Ansi.BOLD}Я вас предупрдил!{Ansi.RESET}\n"
+        f"{Ansi.GREEN}{Ansi.BOLD}Аварийный выход: Ctrl+C{Ansi.RESET}\n\n"
         f"{Ansi.GRAY}(На самом деле это безопасная пародия: ничего не меняем в системе){Ansi.RESET}"
     )
 

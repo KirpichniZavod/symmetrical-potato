@@ -66,6 +66,12 @@
       </TabItem>
     </TabControl>
 
+    <!-- Баннер аварийного выхода -->
+    <Border Background="#111827" Opacity="0.9" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+      <TextBlock Text="Аварийный выход: Ctrl+Alt+Shift+Q — завершает и очищает псевдо-автозапуск"
+                 Margin="12" Foreground="#22D3EE"/>
+    </Border>
+
     <!-- Логин-оверлей сверху -->
     <Grid x:Name="LoginOverlay" Background="#CC0F172A">
       <Border CornerRadius="14" Padding="28" Background="#111827" BorderBrush="#22D3EE" BorderThickness="1"
